@@ -4,6 +4,7 @@ import bcrypt
 import jwt
 from datetime import datetime, timedelta
 import os
+import sqlite3
 
 auth_bp = Blueprint('auth', __name__)
 
